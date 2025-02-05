@@ -1,0 +1,61 @@
+html {
+    background-color: #fefefe;
+    scroll-padding-top: 70px;
+}
+
+body p, li {
+    color: #454545;
+    font-size: 20px;
+}
+
+body {
+    font-family: Palatino, "EB Garamond", Georgia, "Times New Roman", serif;
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+.row .no-underline-links a {
+    text-decoration: none !important; /* Forces no underline */
+}
+
+.row:not(#publications, #projects) a {
+    text-decoration: underline;
+}
+
+.image-link {
+    text-decoration: none !important;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    /* Center the DIV horizontally */
+}
+
+.fixed-header, .fixed-footer {
+    width: 100%;
+    position: fixed;
+    background: rgb(139, 93, 255);
+    padding: 7px 0;
+    color: #fff;
+    font-size: calc(6px + 0.78125vw);
+}
+
+.fixed-header {
+    top: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 1.7vw;
+    display: inline-block;
+}
+
+a {
+    color: rgb(139, 93, 255);
+}
+
+a:hover {
+    color: rgb(86, 58, 156);
+}
